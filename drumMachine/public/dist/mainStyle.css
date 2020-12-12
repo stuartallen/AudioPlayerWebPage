@@ -1,0 +1,20 @@
+.sound-button {
+  width: 300px;
+  height: 300px;
+}
+
+#play-button {
+  background-color: green;
+}
+
+#pause-button {
+  background-color: blue;
+}
+
+#reload-button {
+  background-color: red;
+}
+
+#loop-button {
+  background-color: purple;
+}

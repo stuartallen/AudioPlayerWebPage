@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sound Player</title>
+
+	<link rel="stylesheet" href="dist/mainStyle.css">
+	<script src="index.js" charset="utf-8" defer></script>
+</head>
+<body>
+	<button id="play-button" class="sound-button"></button>
+	<button id="pause-button" class="sound-button"></button>
+	<button id="reload-button" class="sound-button"></button>
+	<button id="loop-button" class="sound-button"></button>
+
+	<audio id="audio" controls>
+		<source src="audio/sample.mp3" type="audio/mp3">
+		Audio is not supported
+	</audio>
+</body>
+</html>
